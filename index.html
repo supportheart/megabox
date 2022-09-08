@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-title" content="메가박스 포트폴리오용 사이트">
+  <meta name="description" content="메가박스 반응형 리뉴얼 사이트입니다.">
+  <meta property="og:title" content="메가박스 포트폴리오용 사이트">
+
+  <!-- 차후 수정해야함 -->
+  <meta property="og:url" content="https://seongwon-portfolio.netlify.app/">
+
+  <meta property="og:image"
+    content="https://img.megabox.co.kr/SharedImg/metaTag/2020/02/04/gFfTzMwwiCxhBwcUV5TRGMFX9Cmoj64W.jpg">
+  <meta property="og:description" content="메가박스 반응형 리뉴얼 사이트입니다">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content>
+
+  <!-- 차후 수정해야함 -->
+  <meta name="twitter:url" content="https://seongwon-portfolio.netlify.app/">
+
+  <meta name="twitter:image"
+    content="https://img.megabox.co.kr/SharedImg/metaTag/2020/02/04/gFfTzMwwiCxhBwcUV5TRGMFX9Cmoj64W.jpg">
+  <meta name="twitter:description" content="메가박스 반응형 리뉴얼 사이트입니다">
+
+  <!-- HTLM5shiv ie6~8 -->
+  <!--[if lt IE 9]> 
+      <script src="assets/js/html5shiv.min.js"></script>
+      <script type="text/javascript">
+         alert("현재 브라우저는 지원하지 않습니다. 크롬 브라우저를 추천합니다.!");
+      </script>
+   <![endif]-->
+
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favico/favicon_144.png">
+  <link rel="apple-touch-icon" href="img/favic/favicon_72.png">
+
+  <title>메가박스 반응형 리뉴얼 사이트</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/modernizr-custom.js"></script>
+  <script src="js/ie-checker.js"></script>
+  <script src="js/iframe_api.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script async src="js/main.js"></script>
+</head>
+
+<body>
+  <!-- skip -->
+  <div class="skip">
+    <a href="#content1">본문 바로가기</a>
+    <a href="#footer">푸터 바로가기</a>
+  </div>
+  <!-- //skip -->
+  <!-- header -->
+  <header id="header">
+    <div class="container">
+      <div class="row">
+        <div class="header">
+          <h1>
+            <a href="#" title="메가박스 메인 바로가기"><img src="img/logo/logo-white_new2.png" alt="메가박스"></a>
+          </h1>
+          <nav id="gnb_m">
+            <h2 class="ir_so">메가박스 전체메뉴</h2>
+            <a href="#" class="menu"><i class="menu_icon"></i></a>
+          </nav>
+          <div class="header_top">
+            <ul>
+              <li><a href="#" title="VIP LOUNGE">VIP LOUNGE</a></li>
+              <li><a href="#" title="멤버십">멤버십</a></li>
+              <li><a href="#" title="고객센터">고객센터</a></li>
+            </ul>
+            <ul>
+              <li><a href="#" title="로그인">로그인</a></li>
+              <li><a href="#" title="회원가입">회원가입</a></li>
+              <li><a href="#" title="빠른예매">빠른예매</a></li>
+            </ul>
+          </div>
+          <nav class="header_bottom gnb">
+            <ul>
+              <li class="link">
+                <a href="#" title="예매"><img src="img/icon/ico/ico-sitemap-white.png" alt="사이트맵"></a>
+                <a href="#" title="검색"><img src="img/icon/ico/ico-search-white.png" alt="검색"></a>
+              </li>
+              <li><a href="#">영화</a>
+                <div class="lnb">
+                  <ul>
+                    <li><a href="#" title="전체영화">전체영화</a></li>
+                    <li><a href="#" title="큐레이션">큐레이션</a></li>
+                    <li><a href="#" title="무비포스트">무비포스트</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#" title="예매">예매</a>
+                <div class="lnb">
+                  <ul>
+                    <li><a href="#" title="전체영화">전체영화</a></li>
+                    <li><a href="#" title="상영시간표">상영시간표</a></li>
+                    <li><a href="#" title="더 부티크 프라이빗 예매">더 부티크 프라이빗 예매</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#" title="극장">극장</a>
+                <div class="lnb">
+                  <ul>
+                    <li><a href="#" title="전체극장">전체극장</a></li>
+                    <li><a href="#" title="특별관">특별관</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li><a href="#" title="이벤트">이벤트</a>
+                <div class="lnb">
+                  <ul>
+                    <li><a href="#" title="진행중 이벤트">진행중 이벤트</a></li>
+                    <li><a href="#" title="지난 이벤트">지난 이벤트</a></li>
+                    <li><a href="#" title="당첨자발표">당첨자발표</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="not"><a href="#" title="스토어">스토어</a></li>
+              <li><a href="#" title="혜택">혜택</a>
+                <div class="lnb">
+                  <ul>
+                    <li><a href="#" title="메가박스 멤버십">메가박스 멤버십</a></li>
+                    <li><a href="#" title="제휴/할인">제휴/할인</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="link">
+                <a href="#"><img src="img/icon/ico/ico-schedule-white.png" alt="스케줄"></a>
+                <a href="#"><img src="img/icon/ico/ico-mymega-white.png" alt="내정보"></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="lnb_bg"></div>
+  </header>
+  <!-- //header -->
+  <!-- boxofice -->
+  <section id="content1" class="section">
+    <div class="content1_bg">
+      <img src="img/main/movie/1ogGcWYxCNJ9MTnizlZLdZ6REjg6xX1z_420.jpg" alt="한산 포스터">
+      <div class="bg_pattern"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="content1_title">
+          <h2>
+            <em>박스오피스</em>
+          </h2>
+          <div class="more"><a href="#">더 <span class="disappear">많은 영화</span>보기</a></div>
+        </div>
+        <div class="movie_list">
+          <div class="swiper movie_slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="slide">
+                  <a href="#" class="movie">
+                    <div class="screen">
+                      <p>
+                        <img src="img/icon/common/mov_top_tag_db.png" alt="dolby">
+                      </p>
+                      <p>
+                        <img src="img/icon/common/mov_top_tag_mx.png" alt="mx">
+                      </p>
+                    </div>
+                    <div class="rank">
+                      <strong class="number">1<span class="ir_so">위</span></strong>
+                    </div>
+                    <img src="img/main/movie/QDUC0cjm2bnWDCCQPYpQvelnoFe1CCfH_420.jpg" alt="헌트 포스터">
+                    <div class="hover_area">
+                      <p>
+                        ‘사냥꾼’이 될 것인가, ‘사냥감’이 될 것인가!
+                        <span><br></span>
+                        조직 내 숨어든 스파이를 색출하라!
+                        망명을 신청한 북한 고위 관리를 통해 정보를입수한
+                      </p>
+                      <div class="score">
+                        <p class="title">관람평</p>
+                        <p class="number">9.1<span class="ir_so">점</span></p>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="btn_area">
+                    <div class="like_btn">
+                      <button type="button" class="btn">
+                        <i class="like_icon"></i>
+                        <em class="ir_so">좋아요</em>
+                        <span class="number">1.6k</span>
+                      </button>
+                    </div>
+                    <div class="ticket_btn">
+                      <button type="button" class="btn">예매</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide">
+                  <a href="#" class="movie">
+                    <div class="screen">
+                      <p>
+                        <img src="img/icon/common/mov_top_tag_db.png" alt="dolby">
+                      </p>
+                      <p>
+                        <img src="img/icon/common/mov_top_tag_mx.png" alt="mx">
+                      </p>
+                    </div>
+                    <div class="rank">
+                      <strong class="number">2<span class="ir_so">위</span></strong>
+                    </div>
+                    <img src="img/main/movie/6zfAYe6IrZ8BWnruqEfafwakt5cUjWgX_420.jpg" alt="탑건 포스터">
+                    <div class="hover_area">
+                      <p>
+                        한순간의 실수도 용납되지 않는 하늘 위, 가장 압도적인 비행이 시작된다!
+                        <span><br></span>
+                        최고의 파일럿이자 전설적인 인물 매버릭(톰 크루즈)은 자신이 졸업한 훈련학교 교관으로 발탁된다.
+                      </p>
+                      <div class="score">
+                        <p class="title">관람평</p>
+                        <p class="number">9.7<span class="ir_so">점</span></p>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="btn_area">
+                    <div class="like_btn">
+                      <button type="button" class="btn">
+                        <i class="like_icon"></i>
+                        <em class="ir_so">좋아요</em>
+                        <span class="number">3.6k</span>
+                      </button>
+                    </div>
+                    <div class="ticket_btn">
+                      <button type="button" class="btn">예매</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide">
+                  <a href="#" class="movie">
+                    <div class="screen">
+                      <p>
+                        <img src="img/icon/common/mov_top_tag_db.png" alt="dolby">
+                      </p>
+                      <p>
+                        <img src="img/icon/common/mov_top_tag_mx.png" alt="mx">
+                      </p>
+                    </div>
+                    <div class="rank">
+                      <strong class="number">3<span class="ir_so">위</span></strong>
+                    </div>
+                    <img src="img/main/movie/hQsvDEd41AY0pmON6fAhJ55ouwS5K3wb_420.jpg" alt="놉 포스터">
+                    <div class="hover_area">
+                      <p>
+                        그것은 우리 위에 있다.
+                        거대하고, 주목받길 원하고, 미쳤다.
+                        나쁜 기적이라는 것도 있을까?
+                      </p>
+                      <div class="score">
+                        <p class="title">관람평</p>
+                        <p class="number">8<span class="ir_so">점</span></p>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="btn_area">
+                    <div class="like_btn">
+                      <button type="button" class="btn">
+                        <i class="like_icon"></i>
+                        <em class="ir_so">좋아요</em>
+                        <span class="number">903</span>
+                      </button>
+                    </div>
+                    <div class="ticket_btn">
+                      <button type="button" class="btn">예매</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide">
+                  <a href="#" class="movie">
+                    <div class="screen">
+                      <p>
+                        <img src="img/icon/common/mov_top_tag_db.png" alt="dolby">
+                      </p>
+                      <p>
+                        <img src="img/icon/common/mov_top_tag_mx.png" alt="mx">
+                      </p>
+                    </div>
+                    <div class="rank">
+                      <strong class="number">4<span class="ir_so">위</span></strong>
+                    </div>
+                    <img src="img/main/movie/1ogGcWYxCNJ9MTnizlZLdZ6REjg6xX1z_420.jpg" alt="한산 포스터">
+                    <div class="hover_area">
+                      <p>
+                        나라의 운명을 바꿀 압도적 승리의 전투가 시작된다!
+                        1592년 4월, 조선은 임진왜란 발발 후 단 15일 만에 왜군에 한양을 빼앗기며 절체절명의 위기에 놓인다.
+                        조선을 단숨에 점령한 왜군은 명나라로 향하는 야망을 꿈꾸며 대규모 병역을 부산포로 집결시킨다.
+                      </p>
+                      <div class="score">
+                        <p class="title">관람평</p>
+                        <p class="number">9.2<span class="ir_so">점</span></p>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="btn_area">
+                    <div class="like_btn">
+                      <button type="button" class="btn">
+                        <i class="like_icon"></i>
+                        <em class="ir_so">좋아요</em>
+                        <span class="number">2k</span>
+                      </button>
+                    </div>
+                    <div class="ticket_btn">
+                      <button type="button" class="btn">예매</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="search_wrap">
+      <div class="container">
+        <div class="row">
+          <div class="search_info">
+            <div class="search">
+              <div class="search_inner">
+                <input type="text" placeholder="영화명을 입력해 주세요" title="영화 검색" class="input-text" id="movieName">
+                <label for="movieName"><i><span class="ir_so">영화 검색</span></i></label>
+              </div>
+            </div>
+            <div class="info">
+              <ul>
+                <li class="schedule">
+                  <a href="#" title="상영시간표"><i class="schedule_icon"></i>상영시간표</a>
+                </li>
+                <li class="box_office">
+                  <a href="#" title="박스오피스"><i class="box_office_icon"></i>박스오피스</a>
+                </li>
+                <li class="quick">
+                  <a href="#" title="빠른예매"><i class="quick_icon"></i>빠른예매</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mouse_move">
+      <div class="container">
+        <div class="row">
+          <div class="mouse">
+            <img src="img/icon/ico/ico-mouse.png" alt>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //boxofice -->
+  <section id="content2" class="section">
+    <div class="content2_bg"></div>
+    <div class="container">
+      <div class="row">
+        <div class="content_title">
+          <h2>혜택</h2>
+        </div>
+        <div class="benefit_ad">
+          <div class="benefit_slider">
+            <div class="slider1">
+              <div class="swiper benefit1">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><a href="#"><img src="img/main/slider/9tJrhPtOZDe2tlhii4zijoHpovPt9yCR.jpg"
+                        alt="스타벅스 텀블러 무료 증정"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/main/slider/6sb4dWdd8y1njIzzRxrzRqeUYKreanON.png"
+                        alt="메가박스 영화관람권 증정"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/main/slider/6GT9suCtq4nejcuEINJC4IxvKGZy0hTT.jpg"
+                        alt="skypass 회원 영화 할인"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/main/slider/hxZLQWThUQjDwJdmNytT0CLWOUywCeQ5.jpg"
+                        alt="HI FIVE FESTA With 메가박스"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/main/slider/4flptBkOJU3Mdmn4idl7zPo71DUnvwlL.jpg"
+                        alt="메가박스 ORIGIBAL TICKET"></a></div>
+                </div>
+                <div class="swiper-button swiper-button-prev"></div>
+                <div class="swiper-button swiper-button-next"></div>
+                <div class="swiper-scrollbar swiper-ad"></div>
+              </div>
+            </div>
+            <div class="slider2">
+              <div class="swiper benefit2">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><a href="#"><img src="img/main/slider/n0JEN8gNhQEFK3yqkrQ3nFVCuSrDp6Db.jpg"
+                        alt="스타벅스 텀블러 무료 증정"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/main/slider/e0J0ZfB5njye346I2UzHL0tUIjmxot2f.png"
+                        alt="메가박스 영화관람권 증정"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/main/slider/SIeNdNGwmOKgIKPCraVEJYVSoaEaH1gT.jpg"
+                        alt="skypass 회원 영화 할인"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/main/slider/5MGk6gWpntIZx5pvgytTfCJYGzZYpMaL.jpg"
+                        alt="HI FIVE FESTA With 메가박스"></a></div>
+                  <div class="swiper-slide"><a href="#"><img src="img/main/slider/DxlgADp9kpfQurpgBvWLQMfI2VkI02VI.jpg"
+                        alt="메가박스 ORIGIBAL TICKET"></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="benefit_img">
+            <div class="ads">
+              <div class="ad_img1">
+                <a href="#"><img src="img/main/ad/k7zdhPzc7cHF5MBm9vB7plyExzExqV4g.jpg" alt="메가박스 & 휘닉스 제주"></a>
+              </div>
+              <div class="ad_img2">
+                <a href="#"><span class="ir_pm">신규 & 휴면 할인 안내</span></a>
+              </div>
+            </div>
+            <div class="ad_img3">
+              <a href="#"><span class="ir_pm">올리브영 나인위시스</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="benefit_menu">
+          <h3 class="ir_so">혜택 메뉴</h3>
+          <ul>
+            <li><a href="#"><i class="vip_icon"></i>VIP LOUNGE</a></li>
+            <li><a href="#"><i class="membership_icon"></i>멤버쉽</a></li>
+            <li><a href="#"><i class="discount_icon"></i>할인카드안내</a></li>
+            <li><a href="#"><i class="event_icon"></i>이벤트</a></li>
+            <li><a href="#"><i class="store_icon"></i>스토어</a></li>
+          </ul>
+        </div>
+        <div class="new_open">
+          <div class="new_open_inner">
+            <h3>
+              megabox <br />
+              <strong>grand<br />opening</strong>
+            </h3>
+            <div class="new_slider">
+              <div class="swiper new_open_slider">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="slide_inner">
+                      <a href="#" class="slide_bg">
+                        <div class="slide_text">
+                          <p>신규오픈</p>
+                          <h4>금정AK플라자</h4>
+                          <span>2022.07.13</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slide_inner">
+                      <a href="#" class="slide_bg">
+                        <div class="slide_text">
+                          <p>신규오픈</p>
+                          <h4>금정AK플라자</h4>
+                          <span>2022.07.13</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-controll-new">
+                  <div class="swiper-button swiper-button-prev-new"></div>
+                  <div class="swiper-button swiper-button-next-new"></div>
+                  <div class="pause-button"></div>
+                  <div class="swiper-scrollbar swiper-scrollbar-new"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="content3" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="content_title">
+          <h2>큐레이션</h2>
+          <div class="more"><a href="#"><span class="disappear">큐레이션</span> 더보기</a></div>
+        </div>
+        <div class="contents">
+          <div class="quration_main">
+            <div class="main_img">
+              <div class="main_badge"></div>
+            </div>
+            <div class="main_dsc"></div>
+            <div class="main_btn"></div>
+          </div>
+          <div class="quration_sub">
+            <ul>
+              <li>
+                <a class="sub_img" href="#">
+                  <div class="sub_badge"></div>
+                </a>
+                <p class="sub_dsc"></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="content4" class="section">
+    <div class="container"></div>
+  </section>
+  <footer id="footer"></footer>
+</body>
+
+</html>
